@@ -1,5 +1,5 @@
 # Description: Boxstarter Script
-# Author: Microsoft
+# 
 # chocolatey fest demo
 
 Disable-UAC

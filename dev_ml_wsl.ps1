@@ -1,5 +1,5 @@
 # Description: Boxstarter Script
-# Author: Microsoft
+# 
 # Common dev settings for machine learning using Windows and Linux native tools
 
 Disable-UAC
@@ -26,15 +26,14 @@ executeScript "SystemConfiguration.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "CommonDevTools.ps1";
-executeScript "HyperV.ps1";
 executeScript "WSL.ps1";
 
-write-host "Installing tools inside the WSL distro..."
-Ubuntu1804 run apt install python2.7 python-pip -y 
-Ubuntu1804 run apt install python-numpy python-scipy -y
-Ubuntu1804 run pip install pandas
+#write-host "Installing tools inside the WSL distro..."
+#Ubuntu1804 run apt install python2.7 python-pip -y 
+#Ubuntu1804 run apt install python-numpy python-scipy -y
+#Ubuntu1804 run pip install pandas
 
-write-host "Finished installing tools inside the WSL distro"
+#write-host "Finished installing tools inside the WSL distro"
 
 Enable-UAC
 Enable-MicrosoftUpdate

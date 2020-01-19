@@ -1,5 +1,5 @@
 # Description: Boxstarter Script
-# Author: Microsoft
+# 
 # Common settings for azure devops
 
 Disable-UAC
